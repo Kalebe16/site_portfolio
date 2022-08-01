@@ -1,0 +1,157 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {  
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
+
+#topMenu {
+    display: flex;
+    background-color: #302f2f;
+    margin: 0;
+}
+
+#topMenu li {
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    padding: 7px;
+}
+
+
+
+.section1 {
+    display: flex;
+    height: 33vh;
+    background-color: #22d271;
+}
+
+.centralize {
+    margin: auto;
+    text-align: center;
+}
+
+.section2 {
+    display: flex;
+    background-color: white;
+    height: 36vh;
+}
+
+.imagemProjeto {
+    width: 15vh;
+    height: 15vh;
+    padding-left: 15px;
+
+}
+
+.imagemProjeto2 {
+    width: 21vh;
+    height: 21vh;
+    padding-left: 15px;
+
+}
+
+.imagemProjeto3 {
+    width: 18vh;
+    height: 18vh;
+    padding-left: 15px;
+}
+
+
+.section3 {
+    display: flex;
+    background-color: #e5e6ea;
+    height: 36vh;
+}
+
+.botaoVermelho {
+    background-color: #c64e63;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.iconesbaixar {
+    width: 6vh;
+    height: 6vh;
+}
+
+.iconesnavbar {
+    width: 6vh;
+    height: 6vh;
+}
+
+
+.fotoperfil {
+    width: 15vh;
+    height: 15vh;
+    border-radius: 90vh;
+    padding: 0%;
+}
+
+#blocoform {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #22d271;
+    font-size: larger;
+    text-shadow: 1px 1px 0px #000000;
+    
+}
+
+.botoesforms {
+    background-color: #302f2f;
+    border: black solid ;
+    border-radius: 10px;
+    width: 20vh;
+    height: 4vh;
+    margin-top: 2vh;
+    color: white;  
+    box-shadow: 4px 4px 2px #000000;
+    font-family: inherit;
+    font-size: 18px;
+    
+}
+
+.inputs {
+    margin-bottom: 2vh;
+    width: 273px;
+    height: 25px;
+    font-family: inherit;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#textarea {
+    font-family: inherit;
+    font-size: 18px;
+}
+
+.titulo {
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 414px)
+{
+
+    .centralize {
+        height: auto;
+    }
+   
+    footer {
+        padding: 15px;
+    }
+    
+  
+}
