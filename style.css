@@ -65,6 +65,12 @@ footer {
     height: 36vh;
 }
 
+.section4 {
+    display: flex;
+    background-color: white;
+    height: 42vh;
+}
+
 .imagemProjeto {
     width: 15vh;
     height: 15vh;
@@ -83,6 +89,12 @@ footer {
     width: 18vh;
     height: 18vh;
     padding-left: 15px;
+}
+
+.imagemProjeto4 {
+    width: 17vh;
+    height: 17vh;
+    padding-left: 14px;
 }
 
 
